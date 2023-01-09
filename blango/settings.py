@@ -57,7 +57,8 @@ class Dev(Configuration):
         'crispy_bootstrap5',
         "debug_toolbar",
         'blango_auth',
-        "allauth", "allauth.account", "allauth.socialaccount", "allauth.socialaccount.providers.google"
+        "allauth", "allauth.account", "allauth.socialaccount", "allauth.socialaccount.providers.google",
+        "rest_framework"
     ]
 
     MIDDLEWARE = [
